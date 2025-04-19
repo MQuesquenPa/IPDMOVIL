@@ -1,0 +1,8 @@
+touch src/api/.gitkeep
+touch src/config/.gitkeep
+touch src/core/.gitkeep
+touch src/data/.gitkeep
+touch src/domain/.gitkeep
+touch src/navigation/.gitkeep
+touch src/presentation/.gitkeep
+touch src/store/.gitkeep
