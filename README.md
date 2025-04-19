@@ -95,3 +95,35 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+📁 Estructura de carpetas recomendada
+
+android               # Proyecto Android nativo
+
+ios                   # Proyecto iOS nativo
+
+node_modules          # Dependencias
+
+assets                # Imágenes, fuentes, íconos, sonidos, etc.
+
+src                   # Código fuente principal
+
+api               # Lógica de conexión a APIs, Axios, servicios, etc.
+
+config            # Configuraciones globales (temas, constantes, etc.)
+
+navigation        # Navegación (Stack, Tab, Drawer, etc.)
+
+core              # Lógica de negocio común (validador, helpers, enums...)
+
+data              # Implementaciones concretas (API, almacenamiento, etc.)
+
+domain            # Modelos y contratos (interfaces, entidades, casos de uso)
+
+presentation      # Pantallas, vistas, hooks, componentes UI
+
+store             # Estado global (Redux, Zustand, Recoil, etc.)
+
+App.tsx                # Punto de entrada
+
+.env                   # Variables de entorno
